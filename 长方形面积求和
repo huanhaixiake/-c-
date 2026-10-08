@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void){
+    int chang,kuan,mianji;
+    printf("请输入长宽：");
+    scanf("%d  %d",&chang,&kuan);
+    mianji = chang * kuan;
+    printf("面积为：%d\n",mianji);
+    system("pause");
+    return 0;
+    
+}
